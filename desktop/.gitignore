@@ -7,3 +7,7 @@ out
 
 .idea
 .vscode
+
+# Native addon build artifacts (rebuilt by scripts/build-mac.sh)
+native/**/build/
+resources/native/*.node
